@@ -102,7 +102,7 @@ The "Fizz-Buzz test" is an interview question designed to help filter out the 99
 Hint: Use your last three loops and if/then/else statements. You can learn about those here https://www.w3schools.com/js/js_if_else.asp */
 
 for(var i=1; i <= 100; i ++){
-  if(i % 15 == false){
+  if(i % (5*3) == false){
   	document.write("FizzBuzz" + "<br>"); 
   } else if(i % 3 == false){
   	document.write("Fizz" + "<br>"); 	
